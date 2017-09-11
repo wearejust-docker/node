@@ -3,4 +3,4 @@ FROM node:7.5
 MAINTAINER JUST BV
 
 RUN apt-get install -y git
-RUN npm install --global yarn@0.25.3
+RUN npm install --global yarn@^1.0
